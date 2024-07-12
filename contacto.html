@@ -24,13 +24,16 @@
             <form>
                 <!-- palabra que se va mostrar -->
                 <!-- for y id para relacionar el nombre con la caja de texto -->
-                <label for="nombreapellido"> Nombre y Apellido </label>             
+                <label for="nombreapellido"> Nombre y Apellido </label>                     
                 <!-- crera una caja de texto que permita escribir -->
-                <input type="text" id="nombreapellido" required placeholder="email@dominio.com">                 
+                <input type="text" id="nombreapellido" required >       
+                <label for="apellido"> Apellidos </label>             
+                <!-- crera una caja de texto que permita escribir -->
+                <input type="text" id="nombreapellido" required >                    
                 <label for="correoelectronico">Correo Electrónico</label>
-                <input type="email" id="correoelectronico" required placeholder="(XX) XXXX XXXX">       
+                <input type="email" id="correoelectronico" required placeholder="email@dominio.com">       
                 <label for="telefono">Telefono</label>
-                <input type="tel" id="telefono" required>
+                <input type="tel" id="telefono" required placeholder="(XX) XXXX XXXX">
                 <!-- Crear cuadro de mensaje  -->
                 <label for="mensaje">Mensaje</label>
                 <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
