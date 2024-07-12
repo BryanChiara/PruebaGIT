@@ -1,5 +1,5 @@
 header{
-    background-color: #BBBBBB;
+    background-color: #9b4c4c;
     padding: 20px 0;
 }
 .caja{
@@ -21,7 +21,7 @@ nav li{
 nav a{
     /*para mayuscula*/
     text-transform: uppercase;
-    color: #000000;
+    color: #f0ecec;
     font-size: 22px;
     /*quitar la barra de enlace*/
     text-decoration: none;
