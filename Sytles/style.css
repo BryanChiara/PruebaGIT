@@ -1,0 +1,141 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caja{
+    width: 948px;
+    position: relative;
+        /*para calcular segun la resolucion*/
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top:100px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    /*dar espaciado*/
+    margin: 0 0 0 15px;
+}
+nav a{
+    /*para mayuscula*/
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 22px;
+    /*quitar la barra de enlace*/
+    text-decoration: none;
+}
+/*para cambiar de color con el movimiento del mouse*/
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    /*formato horizontal*/
+    display: inline-block;
+    text-align: center;
+    /*ocupar el 30% del espacio*/
+    width: 30%;
+    vertical-align: top;
+    /*background: #cccccc;*/
+    margin:0 1.5%;
+      /*laterales*/
+    padding: 30px 20px;
+     /*el brode sera el limite del espacio definido*/
+    box-sizing: border-box;
+    /*border: 2px solid #000000;*/
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+     /*bordes*/
+    border-radius: 10px;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 50px;*/
+}
+.productos li:hover{
+    border-color: #c78c19;  
+}
+/*cambio de color del borde al dar clic*/
+.productos li:active{
+    border-color: #088c19;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+/*Efecto de titulo grande al pasar mouse*/
+.productos li:hover h2{
+    font-size: 33px;
+}
+.producto-descripcion{
+    font-size:18px;
+}
+.producto-precio{
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+/* para poner en vertical el label*/
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+/* para poner en vertical el input*/
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; /* transicion para el cambio de color*/
+    cursor: pointer;
+}
+.enviar:hover{
+    background:red ;
+    transform: scale(1.2);
+   /* transform: rotate(70deg);*/ /*efecto visual de rotacion*/
+}
